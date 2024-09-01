@@ -1,3 +1,9 @@
+## Owner Notes:
+
+This is a modified image for customizations to Aurora that I need. It includes the following:
+
+waydroid
+
 # image-template
 
 # Purpose
