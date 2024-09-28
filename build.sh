@@ -22,4 +22,3 @@ rpm-ostree install waydroid
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
-
