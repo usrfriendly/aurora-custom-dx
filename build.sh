@@ -17,6 +17,7 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install waydroid
 rpm-ostree install krdp
 rpm-ostree install dialog
+rpm-ostree install https://mega.nz/linux/repo/Fedora_41/x86_64/dolphin-megasync-Fedora_41.x86_64.rpm
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
