@@ -16,6 +16,7 @@ RELEASE="$(rpm -E %fedora)"
 
 rpm-ostree install waydroid
 rpm-ostree install krdp
+rpm-ostree install dialog
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
