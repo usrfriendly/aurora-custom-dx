@@ -4,8 +4,7 @@ set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
 
-wget https://mega.nz/linux/repo/Fedora_42/x86_64/megasync-Fedora_42.x86_64.rpm && sudo dnf install -y "$PWD/megasync-Fedora_$RELEASE.x86_64.rpm"
-wget https://mega.nz/linux/repo/Fedora_40/x86_64/megasync-Fedora_40.x86_64.rpm && sudo dnf install -y "$PWD/megasync-Fedora_$RELEASE.x86_64.rpm"
+wget https://mega.nz/linux/repo/Fedora_$RELEASE/x86_64/megasync-Fedora_$RELEASE.x86_64.rpm && sudo dnf install -y "$PWD/megasync-Fedora_$RELEASE.x86_64.rpm"
 
 ### Install packages
 
